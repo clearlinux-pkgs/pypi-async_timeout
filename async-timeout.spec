@@ -4,7 +4,7 @@
 #
 Name     : async-timeout
 Version  : 3.0.1
-Release  : 9
+Release  : 10
 URL      : https://files.pythonhosted.org/packages/a1/78/aae1545aba6e87e23ecab8d212b58bb70e72164b67eb090b81bb17ad38e3/async-timeout-3.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a1/78/aae1545aba6e87e23ecab8d212b58bb70e72164b67eb090b81bb17ad38e3/async-timeout-3.0.1.tar.gz
 Summary  : Timeout context manager for asyncio programs
@@ -16,17 +16,7 @@ Requires: async-timeout-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 
 %description
-async-timeout
 =============
-.. image:: https://travis-ci.org/aio-libs/async-timeout.svg?branch=master
-:target: https://travis-ci.org/aio-libs/async-timeout
-.. image:: https://codecov.io/gh/aio-libs/async-timeout/branch/master/graph/badge.svg
-:target: https://codecov.io/gh/aio-libs/async-timeout
-.. image:: https://img.shields.io/pypi/v/async-timeout.svg
-:target: https://pypi.python.org/pypi/async-timeout
-.. image:: https://badges.gitter.im/Join%20Chat.svg
-:target: https://gitter.im/aio-libs/Lobby
-:alt: Chat on Gitter
 
 %package license
 Summary: license components for the async-timeout package.
@@ -49,7 +39,7 @@ python components for the async-timeout package.
 Summary: python3 components for the async-timeout package.
 Group: Default
 Requires: python3-core
-Provides: pypi(async-timeout)
+Provides: pypi(async_timeout)
 
 %description python3
 python3 components for the async-timeout package.
@@ -64,8 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582847272
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583531251
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
