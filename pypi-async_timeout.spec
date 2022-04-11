@@ -4,7 +4,7 @@
 #
 Name     : pypi-async_timeout
 Version  : 4.0.2
-Release  : 32
+Release  : 33
 URL      : https://files.pythonhosted.org/packages/54/6e/9678f7b2993537452710ffb1750c62d2c26df438aa621ad5fa9d1507a43a/async-timeout-4.0.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/54/6e/9678f7b2993537452710ffb1750c62d2c26df438aa621ad5fa9d1507a43a/async-timeout-4.0.2.tar.gz
 Summary  : Timeout context manager for asyncio programs
@@ -15,9 +15,7 @@ Requires: pypi-async_timeout-python = %{version}-%{release}
 Requires: pypi-async_timeout-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(setuptools)
-BuildRequires : pypi(typing_extensions)
 BuildRequires : pypi(wheel)
-Provides: async-timeout
 
 %description
 async-timeout
@@ -54,7 +52,6 @@ Summary: python3 components for the pypi-async_timeout package.
 Group: Default
 Requires: python3-core
 Provides: pypi(async_timeout)
-Requires: pypi(typing_extensions)
 
 %description python3
 python3 components for the pypi-async_timeout package.
@@ -69,7 +66,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641410346
+export SOURCE_DATE_EPOCH=1649714369
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
