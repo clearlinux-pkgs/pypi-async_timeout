@@ -7,7 +7,7 @@
 #
 Name     : pypi-async_timeout
 Version  : 5.0.1
-Release  : 52
+Release  : 53
 URL      : https://files.pythonhosted.org/packages/a5/ae/136395dfbfe00dfc94da3f3e136d0b13f394cba8f4841120e34226265780/async_timeout-5.0.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/a5/ae/136395dfbfe00dfc94da3f3e136d0b13f394cba8f4841120e34226265780/async_timeout-5.0.1.tar.gz
 Summary  : Timeout context manager for asyncio programs
